@@ -68,3 +68,46 @@ nav a {
 nav li:hover > .dropdown-menu {
     display: block;
 }
+
+.dropdown-menu li {
+    width: 100%;
+}
+
+.dropdown-menu a {
+    padding: 12px 15px;
+    transition: background-color 0.3s;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* 언어 선택 버튼 스타일 */
+.lang-selector {
+    color: white;
+    font-size: 14px;
+}
+
+.lang-selector a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.lang-selector a:hover {
+    color: orangered;
+}
+
+main {
+    padding-top: 100px;
+    padding-bottom: 2000px;
+}
+
+main section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
